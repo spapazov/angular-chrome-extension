@@ -6,6 +6,7 @@ import { FooterComponent } from './pages/popup/footer/footer.component';
 import { HeaderComponent } from './pages/popup/header/header.component';
 import {CardComponent} from './pages/popup/card/card.component';
 import {CardsComponent} from './pages/popup/cards/cards.component';
+import {SearchComponent} from './pages/popup/search/search.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import {CardsComponent} from './pages/popup/cards/cards.component';
     FooterComponent,
     HeaderComponent,
     CardComponent,
-    CardsComponent
+    CardsComponent,
+    SearchComponent
   ],
   imports: [CommonModule, PopupRoutingModule]
 })

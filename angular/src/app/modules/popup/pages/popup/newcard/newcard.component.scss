@@ -3,6 +3,10 @@ img{
   width: 70px;
 }
 
+b {
+  float: right;
+}
+
 .left {
   margin-left: -15px;
 }
@@ -12,9 +16,13 @@ img{
 }
 
 .description {
-  margin-left: -100px !important;
+  margin-left: -80px !important;
   margin-top: 10px !important;
   font-weight: bold;
+}
+
+.col-sm {
+  border: solid;
 }
 
 .badge {
@@ -31,4 +39,9 @@ img{
 
 .rewards {
   margin-top: 2px;
+}
+
+.small {
+  width: 20px !important;
+  margin-left: 50px;
 }

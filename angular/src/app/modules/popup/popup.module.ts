@@ -8,6 +8,7 @@ import {CardComponent} from './pages/popup/card/card.component';
 import {CardsComponent} from './pages/popup/cards/cards.component';
 import {SearchComponent} from './pages/popup/search/search.component';
 import {NewcardComponent} from './pages/popup/newcard/newcard.component';
+import {AccountComponent} from './pages/popup/account/account.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {NewcardComponent} from './pages/popup/newcard/newcard.component';
     CardComponent,
     CardsComponent,
     SearchComponent,
-    NewcardComponent
+    NewcardComponent,
+    AccountComponent
   ],
   imports: [CommonModule, PopupRoutingModule]
 })

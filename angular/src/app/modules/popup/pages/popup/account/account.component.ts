@@ -19,4 +19,20 @@ export class AccountComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleMode(mode) {
+    if (mode == 'signin') {
+      this.loggedIn = false;
+      this.signIn = true;
+      this.signUp = false;
+    } else if (mode == 'signup') {
+      this.loggedIn = false;
+      this.signIn = false;
+      this.signUp = true;
+    } else {
+      this.loggedIn = true;
+      this.signIn = false;
+      this.signUp = false;
+    }
+  }
+
 }

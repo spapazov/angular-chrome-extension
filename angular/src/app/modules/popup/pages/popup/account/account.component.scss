@@ -7,6 +7,14 @@ img{
   width: 70px;
 }
 
+label a {
+  float: right;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
 .center-img{
   margin-left: 100px;
   margin-top: 10px;
@@ -40,7 +48,8 @@ img{
   background-color: #f4943a;
   border: solid 1px black;
   margin-left: 100px;
-  color: white
+  color: white;
+  margin-top: -10px;
 }
 
 .margin-account {

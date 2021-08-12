@@ -12,8 +12,8 @@ export class AccountComponent implements OnInit {
 
   constructor() {
     this.loggedIn = false;
-    this.signIn = true;
-    this.signUp = false;
+    this.signIn = false;
+    this.signUp = true;
   }
 
   ngOnInit(): void {

@@ -7,6 +7,11 @@ b {
   float: right;
 }
 
+
+li span {
+  cursor: pointer;
+}
+
 .left {
   margin-left: -15px;
 }
@@ -16,9 +21,8 @@ b {
 }
 
 .description {
-  margin-left: -80px !important;
+  margin-left: -90px !important;
   margin-top: 10px !important;
-  font-weight: bold;
 }
 
 .col-sm {
@@ -34,7 +38,7 @@ b {
 }
 
 .bg-warning {
-  background-color: rgba(4, 22, 99, 0.97) !important;
+  background-color: #f4943a !important;
 }
 
 .rewards {
@@ -44,4 +48,9 @@ b {
 .small {
   width: 20px !important;
   margin-left: 50px;
+}
+
+.add {
+  margin-left: 60px;
+  margin-top: -5px;
 }

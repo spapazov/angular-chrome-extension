@@ -3,6 +3,10 @@ img{
   width: 70px;
 }
 
+li span {
+  cursor: pointer;
+}
+
 .left {
   margin-left: -15px;
 }
@@ -25,5 +29,29 @@ img{
 }
 
 .bg-warning {
-  background-color: rgba(4, 22, 99, 0.97) !important;
+  background-color: #f4943a !important;
+}
+
+.add {
+  margin-left: 60px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.separator {
+  width:100%;
+  margin-top:1px;
+  margin-bottom: 1px;
+}
+
+li a {
+  cursor: pointer
+}
+
+b{
+  float: right;
+}
+
+ul {
+  margin-top:5px;
 }

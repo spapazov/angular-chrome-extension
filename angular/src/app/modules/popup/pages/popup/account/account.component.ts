@@ -6,8 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./account.component.scss']
 })
 export class AccountComponent implements OnInit {
+  loggedIn : boolean;
+  signIn: boolean;
+  signUp: boolean;
 
-  constructor() { }
+  constructor() {
+    this.loggedIn = false;
+    this.signIn = true;
+    this.signUp = false;
+  }
 
   ngOnInit(): void {
   }

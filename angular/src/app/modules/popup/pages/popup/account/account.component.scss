@@ -2,3 +2,51 @@
   height: 330px;
   overflow: scroll;
 }
+img{
+  height: 70px;
+  width: 70px;
+}
+
+.center-img{
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.left {
+  margin-left: -15px;
+}
+
+.right {
+  margin-right:-15px;
+}
+
+.description {
+  margin-left: -170px !important;
+  margin-top: 22px !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 5px;
+}
+
+.row {
+  margin-top:5px;
+}
+
+.orange {
+  background-color: #f4943a;
+  border: solid 1px black;
+  margin-left: 100px;
+  color: white
+}
+
+.margin-account {
+  margin-top: 100px;
+}
+
+.margin-sign {
+  margin-top: 30px;
+}

@@ -8,16 +8,14 @@
         Bank of America Cash Rewards
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <span class="badge saving bg-warning rounded-pill">$0</span>
-      </div>
-      <div class="col">
-        <span class="badge saving bg-warning rounded-pill">0 pts.</span>
-      </div>
-      <div class="col">
-        <span class="badge saving bg-warning rounded-pill">0 miles</span>
-      </div>
-    </div>
   </div>
+  <span (click) = "toggleDetails()" class="badge saving bg-warning rounded-pill">
+    <a>+</a>
+  </span>
 </li>
+<ul *ngIf = "showDetails" class="list-group-flush rewards">
+  <li class="list-group-item">Grocieries: <b>3%</b></li>
+  <li class="list-group-item">Gas: <b>2%</b></li>
+  <li class="list-group-item">Other: <b>1%</b></li>
+  <li class="list-group-item"><span class="badge add rounded-pill bg-warning">Remove Card</span></li>
+</ul>

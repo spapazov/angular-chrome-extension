@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  constructor() { }
+  showDetails: boolean;
+
+  constructor() {
+    this.showDetails = false;
+  }
 
   ngOnInit(): void {
+  }
+
+  toggleDetails() {
+    this.showDetails = !this.showDetails;
   }
 
 }

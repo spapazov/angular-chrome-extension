@@ -1,4 +1,4 @@
-img{
+.issuer{
   height: 70px;
   width: 70px;
 }
@@ -9,6 +9,16 @@ li span {
 
 .rounded-pill {
   border: solid 1px black;
+}
+
+.card {
+  border: none !important;
+  margin-top: 10px;
+}
+
+.small {
+  width: 90% !important;
+  margin-left: 15px;
 }
 
 .left {

@@ -9,11 +9,13 @@ export class AccountComponent implements OnInit {
   loggedIn : boolean;
   signIn: boolean;
   signUp: boolean;
+  clientInfo: any;
 
   constructor() {
     this.loggedIn = false;
     this.signIn = false;
     this.signUp = true;
+    this.clientInfo = {};
   }
 
   ngOnInit(): void {

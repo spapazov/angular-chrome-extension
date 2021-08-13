@@ -9,6 +9,7 @@ import {CardsComponent} from './pages/popup/cards/cards.component';
 import {SearchComponent} from './pages/popup/search/search.component';
 import {NewcardComponent} from './pages/popup/newcard/newcard.component';
 import {AccountComponent} from './pages/popup/account/account.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,8 +20,13 @@ import {AccountComponent} from './pages/popup/account/account.component'
     CardsComponent,
     SearchComponent,
     NewcardComponent,
-    AccountComponent
+    AccountComponent,
   ],
-  imports: [CommonModule, PopupRoutingModule]
+  imports: [
+    CommonModule,
+    PopupRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
+  ]
 })
 export class PopupModule {}

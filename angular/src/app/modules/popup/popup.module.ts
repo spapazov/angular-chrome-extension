@@ -10,6 +10,7 @@ import {SearchComponent} from './pages/popup/search/search.component';
 import {NewcardComponent} from './pages/popup/newcard/newcard.component';
 import {AccountComponent} from './pages/popup/account/account.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {ApiService} from './pages/popup/api/api.service'
 
 @NgModule({
   declarations: [
@@ -27,6 +28,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PopupRoutingModule,
     FormsModule,
     ReactiveFormsModule
+  ],
+  providers: [
+    ApiService
   ]
 })
 export class PopupModule {}
